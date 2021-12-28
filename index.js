@@ -99,7 +99,7 @@ async function handleCommand(interaction, route, body) {
 
             await interaction.editReply({embeds: [embed], ephemeral: true });
         } else {
-            await interaction.reply( {content: 'Can you stop trying to fuck with my bot?', ephemeral: true});
+            await interaction.reply( {content: "Hi! This bot is still in the testing phase, if you want to help break the bot ask Alex to be added to the list", ephemeral: true});
 
             // await interaction.reply('Unauthorized User: Ask Alex to be added to the list');
         }
